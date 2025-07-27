@@ -7,7 +7,7 @@ const TestimonialsSection = () => {
       name: 'Tewestya ',
       role: 'Product Manager',
       company: 'TechFlow Solutions',
-      avatar: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg',
+      avatar: '/Gemini_Generated_Image_o966k2o966k2o966.png',
       content: 'Simret\'s ability to bridge design and development is exceptional. She delivered pixel-perfect implementations while suggesting valuable UX improvements that increased our user engagement by 40%.',
       rating: 5
     },
@@ -15,7 +15,7 @@ const TestimonialsSection = () => {
       name: 'Mulgeta',
       role: 'Creative Director',
       company: 'Creative Digital Agency',
-      avatar: 'https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg',
+      avatar: '/Gemini_Generated_Image_o966k2o966k2o966 (2).png',
       content: 'Working with Simret was a game-changer for our team. Her design systems thinking and technical expertise helped us deliver consistent, high-quality projects for all our clients.',
       rating: 5
     },
@@ -23,7 +23,7 @@ const TestimonialsSection = () => {
       name: 'Yordanos',
       role: 'Startup Founder',
       company: 'StartupLab Incubator',
-      avatar: 'https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg',
+      avatar: '/Gemini_Generated_Image_o966k2o966k2o966 (1).png',
       content: 'Simret transformed our vision into a beautiful, functional product. Her attention to detail and user-centered approach resulted in a 60% increase in user satisfaction scores.',
       rating: 5
     }
