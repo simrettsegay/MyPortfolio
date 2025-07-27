@@ -29,11 +29,13 @@ const HeroSection = () => {
           }
         `}
       </style>
+
       <section id="hero" className="min-h-screen flex items-center px-4 pt-20">
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          
           {/* Left Column - Text Content */}
           <div className="relative z-10 text-left">
-            {/* Glowing background effect - moved to left side */}
+            {/* Glowing background effect */}
             <div className="absolute -left-20 -top-20 w-96 h-96 bg-neon rounded-full opacity-20 blur-3xl animate-glow -z-10"></div>
 
             {/* Main Title */}
@@ -76,11 +78,10 @@ const HeroSection = () => {
           </div>
 
           {/* Right Column - Visual Element */}
-          <div className="relative hidden lg:block">
-            {/* 3D Avatar or Illustration */}
-            <div className="relative w-full h-96">
+          <div className="relative block order-last lg:order-none">
+            <div className="relative w-full h-72 sm:h-96 mt-10 lg:mt-0">
               <div className="absolute inset-0 bg-gradient-to-br from-neon/20 to-blue-600/20 rounded-full backdrop-blur-xl border border-glass-border"></div>
-              
+
               {/* Image container */}
               <div className="absolute inset-4 flex items-center justify-center">
                 <div className="w-full h-full bg-gradient-to-br from-neon/10 to-blue-600/10 rounded-full border border-glass-border flex items-center justify-center">
@@ -91,8 +92,8 @@ const HeroSection = () => {
                   />
                 </div>
               </div>
-              
-              {/* Floating sticky notes container */}
+
+              {/* Floating sticky notes */}
               <div className="absolute top-[-10%] left-[-10%] transform -translate-x-1/4 -translate-y-1/4">
                 <div className="absolute top-[0%] left-[0%] w-40 z-25 transform rotate-[-15deg] hover:scale-105 transition-transform duration-300 animate-float-sticky"> 
                   <img src="/stick1.png" alt="Sticky Note 1" className="w-full h-full object-cover rounded-lg" />
@@ -107,14 +108,14 @@ const HeroSection = () => {
                 </div>
               </div>
 
-              {/* Floating elements around the visual */}
+              {/* Floating elements */}
               <div className="absolute -top-10 -left-10 w-8 h-8 bg-neon rounded-full opacity-60 animate-float"></div>
               <div className="absolute -bottom-10 -right-10 w-6 h-6 bg-white rounded-full opacity-40 animate-float" style={{animationDelay: '1s'}}></div>
               <div className="absolute top-1/4 -right-10 w-4 h-4 bg-neon rounded-full opacity-50 animate-float" style={{animationDelay: '2s'}}></div>
             </div>
           </div>
 
-          {/* Mobile floating elements */}
+          {/* Mobile floating dots */}
           <div className="absolute top-20 left-10 w-4 h-4 bg-neon rounded-full opacity-60 animate-float lg:hidden"></div>
           <div className="absolute bottom-20 right-10 w-6 h-6 bg-white rounded-full opacity-40 animate-float lg:hidden" style={{animationDelay: '1s'}}></div>
         </div>
